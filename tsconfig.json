@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
+      "@shared/*": ["shared/*"],
+      "@util/*": ["util/*"]
+    }
+  },
+  "include": [ "src" ],
+  "compileOnSave": false
+}
